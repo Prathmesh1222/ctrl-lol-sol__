@@ -10,25 +10,25 @@
 }
 
 :root {
-    /* NAVY BLUE PALETTE */
-    --primary: #1E90FF;
-    /* Dodger Blue - main accent */
-    --secondary: #00CFCF;
-    /* Cyan/Teal - contrast */
-    --accent: #FFD700;
-    /* Gold - highlight */
-    --bg-dark: #050D1A;
-    /* Deep Navy */
-    --bg-darker: #020810;
-    /* Near Black Navy */
-    --bg-card: #0A1628;
-    /* Navy Card */
+    /* LOGO-MATCHED PALETTE */
+    --primary: #00BFFF;
+    /* Electric Blue - logo's glowing arrow */
+    --secondary: #00E5FF;
+    /* Cyan Glow - circuit board highlights */
+    --accent: #FF8C00;
+    /* Orange - logo's rising arrow accent */
+    --bg-dark: #0D2540;
+    /* Steel Blue - logo background tone */
+    --bg-darker: #060F1A;
+    /* Deep Navy - near black */
+    --bg-card: #112035;
+    /* Dark Steel Blue - cards */
     --text-light: #FFFFFF;
-    --text-gray: #A0B8CF;
-    --text-muted: #607590;
+    --text-gray: #A8C4D8;
+    --text-muted: #5F7E96;
     --success: #00E5FF;
-    /* Electric Cyan */
-    --code-bg: #0D1E35;
+    /* Cyan */
+    --code-bg: #0A1C2E;
 
     /* Spacing */
     --spacing-xs: 0.5rem;
@@ -45,6 +45,7 @@
     --blur: 20px;
     --glow: 0 0 20px;
 }
+
 
 /* ===========================================
    GLOBAL STYLES
