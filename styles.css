@@ -10,13 +10,13 @@
 }
 
 :root {
-    /* LOGO-MATCHED PALETTE */
-    --primary: #00BFFF;
-    /* Electric Blue - logo's glowing arrow */
-    --secondary: #00E5FF;
-    /* Cyan Glow - circuit board highlights */
+    /* PURPLE + NAVY PALETTE */
+    --primary: #9333EA;
+    /* Electric Purple - main accent */
+    --secondary: #C084FC;
+    /* Light Violet - contrast */
     --accent: #FF8C00;
-    /* Orange - logo's rising arrow accent */
+    /* Orange - from logo arrow */
     --bg-dark: #0D2540;
     /* Steel Blue - logo background tone */
     --bg-darker: #060F1A;
@@ -26,8 +26,8 @@
     --text-light: #FFFFFF;
     --text-gray: #A8C4D8;
     --text-muted: #5F7E96;
-    --success: #00E5FF;
-    /* Cyan */
+    --success: #A855F7;
+    /* Purple glow */
     --code-bg: #0A1C2E;
 
     /* Spacing */
@@ -45,6 +45,7 @@
     --blur: 20px;
     --glow: 0 0 20px;
 }
+
 
 
 /* ===========================================
