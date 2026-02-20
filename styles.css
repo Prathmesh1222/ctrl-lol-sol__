@@ -2016,7 +2016,7 @@ html {
     border: 1.5px solid var(--primary) !important;
     border-radius: 20px !important;
     padding: 0.3rem 1rem !important;
-    color: var(--primary) !important;
+    color: #ffffff !important;
     font-weight: 600 !important;
     transition: background 0.25s ease, color 0.25s ease, box-shadow 0.25s ease !important;
 }
