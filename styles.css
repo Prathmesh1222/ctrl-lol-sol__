@@ -10,25 +10,25 @@
 }
 
 :root {
-    /* MEME POP PALETTE */
-    --primary: #FF00FF;
-    /* Hot Pink - Vibrancy */
-    --secondary: #00FF00;
-    /* Toxic Green - Matrix/Glitch */
-    --accent: #FFFF00;
-    /* Bright Yellow - Warning/Highlight */
-    --bg-dark: #120024;
-    /* Deep Purple - Vaporwave BG */
-    --bg-darker: #05000a;
-    /* Void Black */
-    --bg-card: #1E0B2E;
-    /* Purple Card */
+    /* NAVY BLUE PALETTE */
+    --primary: #1E90FF;
+    /* Dodger Blue - main accent */
+    --secondary: #00CFCF;
+    /* Cyan/Teal - contrast */
+    --accent: #FFD700;
+    /* Gold - highlight */
+    --bg-dark: #050D1A;
+    /* Deep Navy */
+    --bg-darker: #020810;
+    /* Near Black Navy */
+    --bg-card: #0A1628;
+    /* Navy Card */
     --text-light: #FFFFFF;
-    --text-gray: #B8A2C9;
-    --text-muted: #8A6A9E;
-    --success: #00FFFF;
-    /* Cyan */
-    --code-bg: #2A0E3D;
+    --text-gray: #A0B8CF;
+    --text-muted: #607590;
+    --success: #00E5FF;
+    /* Electric Cyan */
+    --code-bg: #0D1E35;
 
     /* Spacing */
     --spacing-xs: 0.5rem;
