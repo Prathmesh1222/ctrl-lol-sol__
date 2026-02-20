@@ -1923,3 +1923,106 @@ html {
 .poster-upload-form .file-drop-zone {
     margin-bottom: 1.5rem;
 }
+
+/* ==========================================
+   GUIDELINES SECTION
+   ========================================== */
+.guidelines-section {
+    padding: var(--spacing-xl) 0;
+    background: linear-gradient(180deg, var(--bg-darker) 0%, var(--bg-dark) 100%);
+}
+
+.guidelines-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.guideline-card {
+    background: var(--bg-card);
+    border: 1px solid rgba(147, 51, 234, 0.15);
+    border-radius: 16px;
+    padding: 1.75rem;
+    position: relative;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.guideline-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.guideline-card:hover {
+    transform: translateY(-6px);
+    border-color: rgba(147, 51, 234, 0.45);
+    box-shadow: 0 12px 40px rgba(147, 51, 234, 0.2);
+}
+
+.guideline-card:hover::before {
+    opacity: 1;
+}
+
+.guideline-num {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--primary);
+    background: rgba(147, 51, 234, 0.12);
+    border: 1px solid rgba(147, 51, 234, 0.3);
+    border-radius: 6px;
+    padding: 0.15rem 0.55rem;
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    letter-spacing: 0.05em;
+}
+
+.guideline-icon {
+    font-size: 1.85rem;
+    margin-bottom: 0.6rem;
+    display: block;
+}
+
+.guideline-card h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
+}
+
+.guideline-card p {
+    font-size: 0.88rem;
+    color: var(--text-gray);
+    line-height: 1.65;
+}
+
+.guideline-card strong {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+/* NAV GUIDELINES BUTTON */
+.nav-guidelines-btn {
+    background: transparent;
+    border: 1.5px solid var(--primary) !important;
+    border-radius: 20px !important;
+    padding: 0.3rem 1rem !important;
+    color: var(--primary) !important;
+    font-weight: 600 !important;
+    transition: background 0.25s ease, color 0.25s ease, box-shadow 0.25s ease !important;
+}
+
+.nav-guidelines-btn:hover {
+    background: var(--primary) !important;
+    color: #fff !important;
+    box-shadow: 0 0 14px rgba(147, 51, 234, 0.5) !important;
+}
